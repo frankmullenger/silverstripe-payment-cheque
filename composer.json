@@ -1,0 +1,20 @@
+{
+	"name": "frankmullenger/payment-cheque",
+	"description": "SilverStripe Cheque Payment Module",
+	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe","payment","cheque","check"],
+	"authors": [
+		{
+			"name": "Frank Mullenger",
+			"homepage": "https://github.com/frankmullenger",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"silverstripe/cms": "3.0.*@stable",
+		"silverstripe/framework": "3.0.*@stable",
+		"frankmullenger/payment": "1.0.x-dev"
+	}
+}

@@ -1,31 +1,21 @@
-SilverStripe Payment Cheque Module
-==================================
+# SilverStripe Payment Cheque Module
 
-**Work in progress**
+## Maintainer Contacts
+*  [Frank Mullenger](https://github.com/frankmullenger)
 
-Maintainer Contacts
--------------------
-Frank Mullenger (frankmullenger_AT_gmail(dot)com)
-* [Deadly Technology Blog](http://deadlytechnology.com/silverstripe/)
-* [SwipeStripe Shop](http://swipestripe.com)
+## Requirements
+* SilverStripe 3.0.x
+* Payment module 1.0.x
 
-Requirements
-------------
-* SilverStripe 3.0
-* Payment module 1.0
-
-Documentation
--------------
+## Documentation
 Simple cheque payment method for SilverStripe payment module.
 
-Installation Instructions
--------------------------
+### Installation Instructions
 1. Place this directory in the root of your SilverStripe installation and call it 'payment-cheque'.
 2. Visit yoursite.com/dev/build?flush=1 to rebuild the database.
 
-Usage Overview
---------------
-* Enable in your application YAML config
+### Usage Overview
+Enable in your application YAML config:
 
 ```yaml
 PaymentGateway:
@@ -39,7 +29,7 @@ PaymentProcessor:
     live:
       - 'Cheque'
 ```
-* Configure in your application YAML config
+Optionally you can set the supported currencies otherwise it will default to supporting GBP, USD, NZD (see ChequeGateway::$supportedCurrencies):
 
 ```yaml
 ChequeGateway:
@@ -53,5 +43,4 @@ ChequeGateway:
       'USD' : 'United Statues Dollar'
 ```
 
-* Remember to ?flush=1 after changes to the config YAML files
-
+Remember to ?flush=1 after changes to the config YAML files.

@@ -13,8 +13,8 @@
 	],
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "3.0.*@stable",
-		"silverstripe/framework": "3.0.*@stable",
-		"frankmullenger/payment": "1.0.x-dev"
+		"silverstripe/cms": "3.*",
+		"silverstripe/framework": "3.*",
+		"frankmullenger/payment": "1.0.*"
 	}
 }

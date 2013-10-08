@@ -4,8 +4,8 @@
 *  [Frank Mullenger](https://github.com/frankmullenger)
 
 ## Requirements
-* SilverStripe 3.0.x
-* Payment module 1.0.x
+* SilverStripe 3.*
+* Payment module 1.0.*
 
 ## Documentation
 Simple cheque payment method for SilverStripe payment module.

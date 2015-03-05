@@ -24,7 +24,7 @@ class ChequeGateway extends PaymentGateway_MerchantHosted {
   }
   
   public function process($data) {
-    return new PaymentGateway_Success();
+    return new PaymentGateway_Incomplete();
   }
 
   public function getSupportedCurrencies() {
